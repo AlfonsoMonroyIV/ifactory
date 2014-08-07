@@ -1,3 +1,3 @@
 <?php
-echo"provando git";
+echo"ola k ase, provando Git o k ase!";
 ?>
