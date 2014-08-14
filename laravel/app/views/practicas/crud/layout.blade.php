@@ -8,7 +8,7 @@
     <link href="{{asset('assets/sistema/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <link href="{{asset('assets/sistema/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
-
+<link href="{{asset('assets/sistema/css/plugins/social-buttons/social-buttons.css')}}" rel="stylesheet">
 
 
     <!-- Page-Level Plugin CSS - Tables -->
@@ -30,9 +30,20 @@
     <![endif]-->
   </head>
   <body>
+
     {{-- Wrap all page content here --}}
     <div id="wrap">
       {{-- Begin page content --}}
+
+          <!-- /.panel-heading -->
+  
+                  <p>
+                  <a href="{{route('crud.index')}}"class="btn btn-info">Lista de productos</a>
+                  </p>
+                  <p>
+                  <a href="{{route('crud.create')}}"class="btn btn-success">Nuevo Producto</a>
+                  </p>                     
+               
       <div class="container">
         @yield('content')
       </div>
@@ -62,5 +73,6 @@
     <!-- SB Admin Scripts - Include with every page -->
 
     <script src="{{asset('assets/sistema/js/sb-admin.js')}}"></script>
+    <script src="{{asset('assets/sistema/js/admin.js')}}"></script>
   </body>
 </html>

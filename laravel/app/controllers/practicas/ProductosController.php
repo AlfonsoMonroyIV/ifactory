@@ -36,7 +36,7 @@ class Practicas_ProductosController extends \BaseController {
 		$producto->producto=Input::get('nombre');
 		$producto->estado=Input::get('activo');
 		$producto->save();
-		return Redirect::route('crud.show')->with('id', $producto->id);
+		return Redirect::route('crud.show', $producto->id);
 	}
 
 
@@ -62,7 +62,7 @@ class Practicas_ProductosController extends \BaseController {
 	public function edit($id)
 	{
 		$producto=Producto::find($id);
-		return View::make('practicas/curd/productos/edit')->with('producto', $producto);
+		return View::make('practicas/crud/productos/edit')->with('producto', $producto);
 	}
 
 
@@ -74,7 +74,11 @@ class Practicas_ProductosController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		
+		$producto= Producto::find($id);
+		$producto->producto=Input::get('producto');
+		$producto->estado=Input::get('activo');
+		$producto->save();
+		return Redirect::route('crud.index');
 	}
 
 
@@ -85,8 +89,28 @@ class Practicas_ProductosController extends \BaseController {
 	 * @return Response
 	 */
 	public function destroy($id)
-	{
-		
+	{	
+       $producto = Producto::find($id);
+        
+        if (is_null ($producto))
+        {
+            App::abort(404);
+        }
+        
+        $producto->delete();
+
+        if (Request::ajax())
+        {
+            return Response::json(array (
+                'success' => true,
+                'msg'     => 'Producto ' . $producto->full_name . ' eliminado',
+                'id'      => $producto->id
+            ));
+        }
+        else
+        {
+            return Redirect::route('crud.index');
+        }
 	}
 
 
