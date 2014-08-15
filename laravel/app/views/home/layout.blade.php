@@ -45,7 +45,7 @@
 	
 			<div id="header">
 			
-				<h1>Ra&uacute;l Garc&iacute;a</h1>
+				<h1>Alfonso Monroy IV</h1>
 				
 				<ul id="main-nav">
 					<li class="current"><a href="{{URL::to('home')}}">CV</a></li>
@@ -67,28 +67,26 @@
 				<div id="footer-address">
 					<h5>Address</h5>
 					<ul>
-						<li>123 Street Address,</li>
-						<li>Lovely City,</li>
-						<li>My Country</li>
+						<li>Santa Maria,</li>
+						<li>Ocoyoacac,</li>
+						<li>Estado de México</li>
 					</ul>
 				</div><!-- footer-address end -->
 				
 				<div id="footer-contact">
-					<h5>Contact</h5>
+					<h5>Contacto</h5>
 					<ul>
-						<li>000 123 456 789</li>
-						<li><a href="mailto:#" title="Send me an email">address@email.com</a></li>
-						<li><a href="contact.php">Contact form<span class="raquo">&#187;</span></a></li>
+						<li><a href="mailto:#" title="Send me an email">alfonso.monroy.ti@gmail.com</a></li>
+						
 					</ul>
 				</div><!-- footer-contact end -->
 				
 				<div id="footer-social">
 					<h5>Social</h5>
 					<ul>
-						<li><a href="#" title=""><img src="{{ asset('assets/home/img/twitter.png')}}" alt="twitter" title="My Twitter profile"></a></li>
-						<li><a href="#" title=""><img src="{{ asset('assets/home/img/facebook.png')}}" alt="facebook" title="My Facebook profile"></a></li>
-						<li><a href="#" title=""><img src="{{ asset('assets/home/img/flickr.png')}}" alt="flickr" title="My Flickr profile"></a></li>
-						<li><a href="#" title=""><img src="{{ asset('assets/home/img/linkedin.png')}}" alt="linkedin" title="My Linkedin profile"></a></li>
+						<li><a href="https://twitter.com/AlfonsoMonroyIV" title=""><img src="{{ asset('assets/home/img/twitter.png')}}" alt="twitter" title="My Twitter profile"></a></li>
+						<li><a href="https://www.facebook.com/alfonso.monroy.792" title=""><img src="{{ asset('assets/home/img/facebook.png')}}" alt="facebook" title="My Facebook profile"></a></li>
+						<li><a href="https://www.linkedin.com/pub/alfonso-monroy-salcedo/70/407/44a" title=""><img src="{{ asset('assets/home/img/linkedin.png')}}" alt="linkedin" title="My Linkedin profile"></a></li>
 					</ul>
 				</div><!-- footer-social end -->
 				
@@ -100,9 +98,9 @@
 				<div class="clear"></div>
 				
 				<ul id="footer-nav">
-					<li><a href="index.html">CV</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="about.html">Yo</a></li>
+					<li><a href="{{URL::to('home')}}">CV</a></li>
+					<li><a href="{{URL::to('portafolio')}}">Portfolio</a></li>
+					<li><a href="{{URL::to('about')}}">Yo</a></li>
 				</ul>
 				
 				<div id="go-top"></div>

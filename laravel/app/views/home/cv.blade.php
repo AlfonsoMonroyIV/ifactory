@@ -1,5 +1,5 @@
 			@extends ('home/layout')
-			@section('title') My CV @stop
+			@section('title') CV Alfonso Monroy IV  @stop
 			@section('content')
 			<div id="text"><img src="{{ asset('assets/home/img/resume.png')}}" alt="" title=""></div>
 			<div id="stripe"></div>
@@ -10,22 +10,22 @@
 			
 				<div class="section">
 			
-					<div class="clearfix"><h2>Personal details</h2></div>
+					<div class="clearfix"><h2>Datos Personales</h2></div>
 					
 					<div class="item">
 					
 						<ul id="personal-details">
-							<li><span>Name:</span>John William Doe</li>
-							<li><span>Born on:</span>July 27, 1989</li>
-							<li class="clearfix"><span>Address:</span>
+							<li><span>Nombre:</span>José Alfonso Monroy Salcedo</li>
+							<li><span>Fecha de Nacimiento:</span>Marzo 29, 1993</li>
+							<li class="clearfix"><span>Dirección:</span>
 								<ul id="address-lines">
-									<li>123 Street Address,</li>
-									<li>Lovely City,</li>
-									<li>My Country</li>
+									<li>Santa Maria</li>
+									<li>Ocoyoacac</li>
+									<li>Estado de México</li>
 								</ul>
 							</li>
-							<li><span>Phone:</span>0 123 456 789</li>
-							<li><span>Email:</span><a href="mailto:#">address@email.com</a></li>
+							<li><span>Telefono:</span></li>
+							<li><span>Email:</span><a href="mailto:#">alfonso.monroy.ti@gmail</a></li>
 						</ul>
 						
 					</div><!-- item end -->
@@ -35,20 +35,20 @@
 				
 				<div class="section">
 			
-					<div class="clearfix"><h2>Work Experience</h2></div>
+					<div class="clearfix"><h2>Experiencia Laboral</h2></div>
 					
 					<div class="item">
 					
-						<h3>Freelance designing</h3>
-						<h4>My own business</h4>
-						<div class="date">2008 - present</div>
+						<h3>Programador Analista</h3>
+						<h4>ESTIC Vicente Guerrero</h4>
+						<div class="date">Abril 2012 - Mayo 2013</div>
 						
 						<div class="description">
-							<p class="margin">Duis elit est, sollicitudin non consequat posuere, euismod ac tellus. Curabitur ut nulla lectus. In sodales aliquam dolor vitae lacinia. Nunc gravida molestie imperdiet.</p>
+							<p class="margin">Analista y programador en el desarrollo de el sistema de automatización para los procesos escolares en la escuela secundaria.</p>
 							<ul>
-								<li>Duis id neque odio, vitae tempus leo.</li>
-								<li>Vivamus ultrices augue viverra massa scelerisque in facilisis arcu blandit.</li>
-								<li>Quisque at quam ut sem viverra ultricies.</li>
+								<li>Administra Calificaciones</li>
+								<li>Aministra Grupos</li>
+								<li>Genera Reportes</li>
 							</ul>
 						</div><!-- description end -->
 						
@@ -56,21 +56,20 @@
 					
 					<div class="item last">
 					
-						<h3>Fashion designer</h3>
-						<h4>Fashion and Style Company</h4>
-						<div class="date">2007 - 2008</div>
+						<h3>Lider de Proyecto</h3>
+						<h4>Industrias Haber´s</h4>
+						<div class="date">Mayo 2013 - Septiembre 2013</div>
 						
 						<div class="description">
-							<p class="margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus dui, bibendum ac aliquet non, volutpat quis elit.</p>
+							<p class="margin">Desarrollo para gestionar los procesos dentro del almacen de la industria.</p>
 							<ul>
-								<li>Praesent venenatis est quis ipsum fringilla ut pulvinar lectus mollis.</li>
-								<li>Curabitur condimentum elementum purus, ut dapibus nunc pulvinar id.</li>
-								<li>Fusce id neque dictum felis pharetra elementum in id erat.</li>
+								<li>Consistencia en la informacion.</li>
+								<li>Agilizacion de los porcesos.</li>
+								<li>Generacion de reportes automatizados.</li>
 							</ul>
 						</div><!-- description end -->
 						
-						<h4 class="refer">References</h4>
-						<p>Mr. Jet Lee <br>Main designer<br>000 123 456 789</p>
+
 						
 					</div><!-- item end -->
 				
@@ -82,64 +81,124 @@
 			
 				<div class="section">
 			
-					<div class="clearfix"><h2>Technical Skills</h2></div>
+					<div class="clearfix"><h2>Habilidades Técnicas</h2></div>
 					
 					<div class="item">
 					
-						<h3>Adobe Photoshop</h3>
+						<h3>PHP</h3>
 						
 						<ul class="stars clearfix">
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
 						</ul>
 						
 						<div class="description">
-							<p>Nullam felis ligula, sodales accumsan vehicula sit amet, faucibus eget augue. Cras scelerisque mi vitae mi commodo id tincidunt elit varius.</p>
+							<p>Experiencia en desarrollo con PHP 5.4 programacion orientada a objetos a travez del uso la arquitectura MVC, uso de Frameworks PHP como Laravel y Codeigniter.</p>
 						</div><!-- description end -->
 						
 					</div><!-- item end -->
 					
 					<div class="item">
 					
-						<h3>Microsoft Windows</h3>
+						<h3>MySQL</h3>
+						
 						
 						<ul class="stars clearfix">
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-inactive.png" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
 						</ul>
 						
 						<div class="description">
-							<p>Mauris vitae sapien non lacus sodales ornare. Integer at augue lacus, non tincidunt sapien. Pellentesque vulputate rhoncus pellentesque.</p>
+							<p>Diseño de bases de datos relacionales, manejo de sentencias DDL y DML, creacion de procedures, triggers, views.</p>
 						</div><!-- description end -->
 						
 					</div><!-- item end -->
 					
 					<div class="item">
 					
-						<h3>Microsoft Office</h3>
+						<h3>C#</h3>
+						
 						
 						<ul class="stars clearfix">
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-active.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-inactive.png" alt="" width="27" height="27" title=""></li>
-							<li><img src="img/star-inactive.png" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
 						</ul>
 						
 						<div class="description">
-							<p>Maecenas sollicitudin tincidunt tortor a tincidunt. Pellentesque convallis accumsan sapien. Maecenas laoreet posuere dui ut cursus. Vivamus condimentum diam vitae purus bibendum eget fermentum felis iaculis.</p>
+							<p>Desarrollo de aplicaciones sobre ASP .NET.</p>
 						</div><!-- description end -->
 						
 					</div><!-- item end -->
+					<div class="item">
+					
+						<h3>Java</h3>
+						
+						
+						<ul class="stars clearfix">
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+						</ul>
+						
+						<div class="description">
+							<p>Programacion a travez del lenguaje solido.</p>
+						</div><!-- description end -->
+						
+					</div><!-- item end -->
+					<div class="item">
+					
+						<h3>CSS</h3>
+						
+						
+						<ul class="stars clearfix">
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+						</ul>
+						
+						<div class="description">
+							<p>Desarrollo de estilos a traves del uso de CSS3, conocimiento de framework less para hojas dinamicas, comprencion del lenguaje para implementaciones con Bootsrap.</p>
+						</div><!-- description end -->
+						
+					</div><!-- item end -->
+					<div class="item">
+					
+						<h3>HTML</h3>
+						
+						
+						<ul class="stars clearfix">
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-active.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+							<li><img src="{{ asset('assets/home/img/star-inactive.png')}}" alt="" width="27" height="27" title=""></li>
+						</ul>
+						
+						<div class="description">
+							<p>Diseño de interfaces a traves del uso de etiquetas HTML5 para optimizacion de SEO y logro de web responsive.</p>
+						</div><!-- description end -->
+						
+					</div><!-- item end -->													
+					
 				
 				</div><!-- section end -->
 				
@@ -147,36 +206,25 @@
 				
 				<div class="section">
 			
-					<div class="clearfix"><h2>Education</h2></div>
+					<div class="clearfix"><h2>Educación</h2></div>
 					
 					<div class="item">
-					
-						<h3>Copywriting</h3>
-						<h4>Lorem Ipsum University</h4>
-						<div class="date">2004 - 2007</div>
+						<div class="date">2011 - 2015</div><br><br>
+						<h3>Ingenieria en Tecnologias de la Información y Comunicación</h3>
 						
-						<div class="description">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div><!-- description end -->
+						<h4>Universidad Tecnológica del Valle de Toluca</h4>
 						
-					</div><!-- item end -->
-					
-					<div class="item last">
-					
-						<h3>High School</h3>
-						<div class="date">2000 - 2004</div>
 						
-						<div class="description">
-							<p class="margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div><!-- description end -->
+
 						
 					</div><!-- item end -->
+
 				
 				</div><!-- section end -->
 				
 			</div><!-- content-right end -->
 		
-		</div><!-- content-innertube end -->
+		
 	
 		<div class="clear"></div>
 		@stop
