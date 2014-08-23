@@ -13,7 +13,7 @@
 			<ul id="list" class="portfolio clearfix">
 			
 				<li data-id="id-1" class="hola_mundo">
-					<img title="" alt="" src="{{asset('assets/home/img/sample/crud.gif')}}">
+					<img title="" alt="" src="{{asset('assets/home/img/sample/crud-min.gif')}}">
 					<span class="portfolio-overlay"></span>
 					<div class="info">
 						<p class="info-title">Hola Mundo</p>
@@ -22,19 +22,19 @@
 						<div class="visit"><a href="{{URL::to('crud')}}" title="Live Demo"></a></div>
 					</div>				
 				</li>
-				<!--li data-id="id-20" class="hola_mundo">					
-					<img title="" alt="" src="img/sample/crud.gif">
+				<li data-id="id-20" class="hola_mundo">					
+					<img title="" alt="" src="{{asset('assets/home/img/sample/laravel-welcome.png')}}">
 					<span class="portfolio-overlay"></span>		
 					<div class="info">
-						<p class="info-title">Ejemplo con Video Hola Mundo</p>
-						<div class="read-more"><a href="#" title="Read more"></a></div>
-						<div class="play"><a href="http://www.youtube.com/watch?v=1dWMIuipn_c" rel="prettyPhoto[mixed]"></a></div>
+						<p class="info-title">Instalacion de Laravel</p>
+						<div class="read-more"><a href="http://laravel.com/docs/installation" title="Read more"></a></div>
+						<div class="play"><a href="https://www.youtube.com/watch?v=qFIvuD0u454&feature=youtu.be" rel="prettyPhoto[mixed]"></a></div>
 					</div>	
 				</li>
 						
 
 						
-				<li data-id="id-20" class="ejemplox">					
+				<!--li data-id="id-20" class="ejemplox">					
 					<img title="" alt="" src="img/sample/portfolio-min20.jpg">
 					<span class="portfolio-overlay"></span>		
 					<div class="info">

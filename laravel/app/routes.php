@@ -19,4 +19,4 @@ Route::get('about', function(){return View::make('home/about');});
 Route::get('portafolio',function(){return View::make('home/portafolio');});
 
 //CRUD routes
-Route::resource('crud', 'Practicas_ProductosController');
+Route::resource('crud', 'practicas_ProductosController');
