@@ -49,6 +49,15 @@
 						<div class="read-more"><a href="http://laravel.com/docs/migrations" title="Read more"></a></div>
 						<div class="play"><a href="https://www.youtube.com/watch?v=li4St-KpZQ0" rel="prettyPhoto[mixed]"></a></div>
 					</div>	
+				</li>
+				<li data-id="id-6" class="tutoriales">					
+					<img title="" alt="" src="{{asset('assets/home/img/sample/laravel-bootstrap.png')}}">
+					<span class="portfolio-overlay"></span>		
+					<div class="info">
+						<p class="info-title">Vistas con Bootstrap</p>
+						<div class="read-more"><a href="http://laravel.com/docs/4.2/responses" title="Read more"></a></div>
+						<div class="play"><a href="https://www.youtube.com/watch?v=NKOYxBskRTI" rel="prettyPhoto[mixed]"></a></div>
+					</div>	
 				</li>								
 						
 
